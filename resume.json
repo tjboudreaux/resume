@@ -1,0 +1,211 @@
+{
+    "basics": {
+        "name": "Travis Boudreaux",
+        "label": "Seasoned Engineering Leader.",
+        "picture": "https://pbs.twimg.com/profile_images/373558347/tjboudreaux_400x400.jpg",
+        "website": "https://travisboudreaux.com",
+        "summary": "I’m a seasoned software engineering leader who's obsessed with user experience. \r\n \r\nI've been an individual contributor in both onsite and remote roles, a team lead, and a product and engineering leader responsible for building multiple agile teams. I’ve worked for startups, small design boutiques, and large corporations and thrived in each environment. \r\n \r\nI believe in automation, agile methodologies, DRY principles, data driven feature development, and pragmatic minimalism.",
+        "email": "tjboudreaux@gmail.com",
+        "location": {
+            "city": "Breaux Bridge",
+            "countryCode": "US",
+            "region": "Louisiana"
+        },
+        "profiles": [
+            {
+                "network": "twitter",
+                "username": "tjboudreaux",
+                "url": "http://twitter.com/tjboudreaux"
+            },
+            {
+                "network": "github",
+                "username": "tjboudreaux",
+                "url": "http://github.com/tjboudreaux"
+            },
+            {
+                "network": "stackoverflow",
+                "username": "tjboudreaux",
+                "url": "https://stackoverflow.com/users/55954/travis"
+            },
+            {
+                "network": "angellist",
+                "username": "tjboudreaux",
+                "url": "https://angel.co/travis-boudreaux"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Waitr",
+            "position": "Director of Software Engineering",
+            "website": "https://waitrapp.com",
+            "startDate": "2016-01-04",
+            "summary": "Led the growth of product and engineering during a period of 3300% growth for Waitr.",
+            "highlights": [
+                "Led the growth and mentoring of a 4 person engineering team to a 20 person cross functional product and engineering team.",
+                "Built two self sustaining cross functional scrum teams that work in synchronized 2 week sprints.",
+                "Oversaw the transition from two 2 legacy PHP services to a distributed microservice architecture built on node.js",
+                "Managed the SLDC process for 7 products in a hyperlocal on-demand multisided marketplace with 500K consumers, 3000 suppliers, and 2500 logistics providers."
+            ]
+        },
+        {
+            "company": "Upwork",
+            "position": "Sr. Software Engineer",
+            "website": "https://www.upwork.com/enterprise/",
+            "startDate": "2011-12-04",
+            "summary": "First Growth Engineer at Elance. Built the original Elance Private Talent Cloud (PTC) offering and transitioned it to Upwork Enterprise.",
+            "highlights": [
+                "First growth engineer at Elance working on building SEO Content Trees, optimizing conversion funnelss, building A/B tests, ",
+                "First enterprise engineer that grew to a team of 3. Built 7 enterprise tools used by large enterprises to speed up the hiring and onboarding of freelancers",
+                "Frontend enterprise lead for the migration and rebranding of Elance Private Talent Cloud to UpWork Enterprise. Mentored 5 engineers, handled release management and all devops responsibilities."
+            ],
+            "endDate": "2015-12-25"
+        },
+        {
+            "company": "Kfx2 Baton Rouge, LA",
+            "position": "Web and Mobile Software Engineer",
+            "website": "http://www.kfx2.com/",
+            "startDate": "2008-12-01",
+            "summary": "Web developer turned mobile developer who launched a mobile services division.",
+            "highlights": [
+                "Managed security and PCI compliance for 19 co-located servers and key accounts such as Texas Roadhouse.",
+                "Completed 20+ redesigns and new launches of sites for clients.",
+                "Led the creation of a mobile development services department where we created 5 native iOS applications for new and existing clients."
+            ],
+            "endDate": "2011-12-25"
+        },
+        {
+            "company": "Comit Technologies",
+            "position": "Web Developer",
+            "website": "https://www.comitdevelopers.com",
+            "startDate": "2007-12-01",
+            "summary": "Web Developer",
+            "highlights": [
+                "Completed 2 server migrations involving over 100 client sites.",
+                "Completed 13 medium sized projects including site redesigns and new site launches.",
+                "Refactored a custom in house multi-tennant e-commerce app from procedural PHP 4 code to an object oriented PHP5 MVC framework."
+            ],
+            "endDate": "2008-12-01"
+        },
+        {
+            "company": "United Parcel Service",
+            "position": "Sr. Technician",
+            "website": "https://www.ups.com/us/en/Home.page",
+            "startDate": "2003-09-01",
+            "summary": "Provided remote and onsite support for multiple package facilities.",
+            "highlights": [
+                "Managed 3 UPS facilities w/ 150+ users, 100+ workstations and 21 servers.",
+                "Maintained 99.99% uptime for critical software systems.",
+                "Promoted to Senior technician faster than anyone in our District in a 5 year period.",
+                "Led coordination of inventory system for our district"
+            ],
+            "endDate": "2007-12-01"
+        },
+        {
+            "company": "LL Fitness",
+            "position": "Web Developer & SEO Manager",
+            "website": "https://www.massageking.com/",
+            "startDate": "2003-06-01",
+            "summary": "Increased sales on massageking.com by 300% in 6 months.",
+            "highlights": [
+                "Architected and developed a custom SEO optimized multi-tennant e-commerce platform that powered sales for 6 different stores.",
+                "Increased revenue on our main e-commerce store by 300% in 6 months through on-site optimization and organic SEO campaigns.",
+                "Got massageking.com ranked #1 in Google for 4 of it's most important keywords and maintained that position for approximately 7 years."
+            ],
+            "endDate": "2004-09-01"
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Louisiana at Lafayette",
+            "studyType": "Computer Science",
+            "startDate": "1999-08-01",
+            "endDate": "2004-06-01"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "level": "",
+            "keywords": [
+                "Javascript",
+                "PHP",
+                "C++",
+                "Objective-C",
+                "Ruby",
+                "Python"
+            ]
+        },
+        {
+            "name": "Frontend Technologies",
+            "level": "",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "SASS",
+                "React / Redux",
+                "AngularJS 1.x",
+                "Backbone.js"
+            ]
+        },
+        {
+            "name": "Databases and Data Stores",
+            "level": "",
+            "keywords": [
+                "Firebase",
+                "MySQL",
+                "Postgres",
+                "Oracle",
+                "Dynamo",
+                "MongoDB",
+                "SOLR",
+                "Elasticsearch",
+                "Redis",
+                "S3"
+            ]
+        },
+        {
+            "name": "Dev Ops",
+            "level": "",
+            "keywords": [
+                "Circle CI",
+                "Jenkins",
+                "Swagger",
+                "Docker",
+                "OpsWorks",
+                "AWS Elastic Beanstalk",
+                "Terraform"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Wenhao Cen - SDE II @ Amazon",
+            "reference": "I worked with Travis closely on a lot of projects over the last two years at Elance. He is a talented full-stack engineer with a wide range of skills. He lead the design of multiple large enterprise projects. He is always happy to help his teammate and open his mind to new technology in the industry. I have learned a lot from Travis and really recommend him."
+        },
+        {
+            "name": "Aaron Lozier - Chief Technology Officer @ Potenza Innovations",
+            "reference": "I have worked closely with Travis on dozens of projects over the last five years.  He is fluent in a wide range of Web related skills including but not limited to Web development, mobile development and search engine optimization.  What sets him apart is his creativity, which allows him to implement intuitive solutions that often exceed the client's expectations.  I have seen the best outcomes with Travis's work when he was allowed free reign to meet the client's requirements in the best manner he saw fit.  In addition to this, Travis is a person of strong character and moral integrity that makes him a great asset to anyone who chooses to do business with him to any degree."
+        },
+        {
+            "name": "Johnathon Wright - Web Application Consultant",
+            "reference": "Travis was a hard worker. He was always friendly and an excellent contributor to the team in terms of attitude and productivity. He was able to balance the need to continue to research emerging Search Engine technology with the need to continue with being productive in our e-commerce project. I would recommend Travis to any employer. If I had the option to work with him again I would do so without reservation."
+        },
+        {
+            "name": "Lance Caraccioli - Senior Software Engineer - UpWork",
+            "reference": "Travis is a gifted programmer.  He's able to see the larger picture, design the solution to a problem, and implement that solution successfully.  He's very familiar with MVC and has dabbled in many of it's flavors (ruby on rails, zend framework, symphony, etc.).  He's a proven engineer, and I believe he is a valuable asset to any software engineering team."
+        },
+        {
+            "name": "Oscar Pineda - Software Engineer",
+            "reference": "I worked with Travis on a e-commerce project.  His skill and expertise was critical to the successful completion of the project.  I would gladly recommend Travis for any programming project."
+        },
+        {
+            "name": "Peter Rigney - Proprietor @ Annunciation Interactive",
+            "reference": "We worked with Travis primarily on a somewhat complex integration for a retail e-commerce site, and were very pleased with his deep grasp of the technologies required and his ability to troubleshoot around our challenges.  We recommend him heartily!"
+        },
+        {
+            "name": "Steven Dugas - Senior Frontend Engineer @ Recurly",
+            "reference": "Travis is an excellent programmer who continues to push the limits of programming with new technologies."
+        }
+    ]
+}

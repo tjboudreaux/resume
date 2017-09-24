@@ -1,0 +1,21 @@
+{
+  "name": "travis-boudreaux-resume",
+  "version": "0.0.1",
+  "description": "My Resume",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/resume export --theme elegant --format html src/index.html",
+    "build:md" : "./node_modules/.bin/resume export --theme markdown test.html",
+    "postbuild:md" : "pwd && mv test.html README.md && rm -f test.html",
+    "serve": "",
+    "deploy": "aws s3 sync src s3://travisboudreaux.com --profile travis --acl public-read --exclude \"*\" --include \"*\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Boudreaux <tjboudreaux@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.11.2",
+    "jsonresume-theme-markdown": "^1.0.2",
+    "resume-cli": "^0.4.19"
+  }
+}
