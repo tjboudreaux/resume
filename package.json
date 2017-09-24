@@ -4,18 +4,32 @@
   "description": "My Resume",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/resume export --theme elegant --format html src/index.html",
-    "build:md" : "./node_modules/.bin/resume export --theme markdown test.html",
-    "postbuild:md" : "pwd && mv test.html README.md && rm -f test.html",
+    "build": "npm run build:html && npm run build:pdf && npm run build:md",
+    "build:html": "npx resume export --theme elegant --format html src/index.html",
+    "build:json:pdf": "rm -f resume.json && npx jq \"del(.work[3,4,5,6]) | del(.references[4,5,6]) | del(.basics.profiles)\" resume-master.json >> resume.json",
+    "build:json:html": "rm -f resume.json && npx jq \".\" resume-master.json >> resume.json",
+    "build:json:md": "rm -f resume.json && npx jq \".\" resume-master.json >> resume.json",
+    "build:md": "npx resume export --theme markdown test.html",
+    "build:pdf": "npx resume export --theme paper --format pdf travis_boudreaux_resume.pdf",
+    "prebuild:html" : "npm run build:json:html",
+    "prebuild:md" : "npm run build:json:md",
+    "prebuild:pdf" : "npm run build:json:pdf",
+    "postbuild:md": "pwd && mv test.html README.md && rm -f test.html",
     "serve": "",
     "deploy": "aws s3 sync src s3://travisboudreaux.com --profile travis --acl public-read --exclude \"*\" --include \"*\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push origin HEAD && git push --tags"
   },
   "author": "Travis Boudreaux <tjboudreaux@gmail.com>",
-  "license": "ISC",
   "dependencies": {
+    "jq": "^1.7.2",
+    "jq-cli-wrapper": "^0.4.0",
     "jsonresume-theme-elegant": "^1.11.2",
     "jsonresume-theme-markdown": "^1.0.2",
+    "jsonresume-theme-onepage": "0.0.3",
+    "jsonresume-theme-paper": "^0.3.5",
+    "jsonresume-theme-spartan-skills": "0.0.4",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
     "resume-cli": "^0.4.19"
   }
 }

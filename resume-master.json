@@ -3,15 +3,20 @@
         "name": "Travis Boudreaux",
         "label": "Seasoned Engineering Leader.",
         "picture": "https://pbs.twimg.com/profile_images/373558347/tjboudreaux_400x400.jpg",
-        "website": "https://travisboudreaux.com",
+        "website": "http://travisboudreaux.com",
         "summary": "I’m a seasoned software engineering leader who's obsessed with user experience. \r\n \r\nI've been an individual contributor in both onsite and remote roles, a team lead, and a product and engineering leader responsible for building multiple agile teams. I’ve worked for startups, small design boutiques, and large corporations and thrived in each environment. \r\n \r\nI believe in automation, agile methodologies, DRY principles, data driven feature development, and pragmatic minimalism.",
         "email": "tjboudreaux@gmail.com",
         "location": {
-            "city": "Breaux Bridge",
+            "city": "Lafayette",
             "countryCode": "US",
             "region": "Louisiana"
         },
         "profiles": [
+            {
+                "network": "linkedin",
+                "username": "travisboudreaux",
+                "url": "https://www.linkedin.com/in/travisboudreaux/"
+            },
             {
                 "network": "twitter",
                 "username": "tjboudreaux",
@@ -39,27 +44,28 @@
             "company": "Waitr",
             "position": "Director of Software Engineering",
             "website": "https://waitrapp.com",
-            "startDate": "2016-01-04",
+            "startDate": "2016-01-01",
             "summary": "Led the growth of product and engineering during a period of 3300% growth for Waitr.",
             "highlights": [
                 "Led the growth and mentoring of a 4 person engineering team to a 20 person cross functional product and engineering team.",
                 "Built two self sustaining cross functional scrum teams that work in synchronized 2 week sprints.",
                 "Oversaw the transition from two 2 legacy PHP services to a distributed microservice architecture built on node.js",
-                "Managed the SLDC process for 7 products in a hyperlocal on-demand multisided marketplace with 500K consumers, 3000 suppliers, and 2500 logistics providers."
+                "Managed the SDLC process for 7 products in a hyperlocal on-demand multisided marketplace with 500K consumers, 3000 suppliers, and 2500 logistics providers."
             ]
         },
         {
             "company": "Upwork",
             "position": "Sr. Software Engineer",
             "website": "https://www.upwork.com/enterprise/",
-            "startDate": "2011-12-04",
+            "startDate": "2011-12-01",
             "summary": "First Growth Engineer at Elance. Built the original Elance Private Talent Cloud (PTC) offering and transitioned it to Upwork Enterprise.",
             "highlights": [
-                "First growth engineer at Elance working on building SEO Content Trees, optimizing conversion funnelss, building A/B tests, ",
-                "First enterprise engineer that grew to a team of 3. Built 7 enterprise tools used by large enterprises to speed up the hiring and onboarding of freelancers",
-                "Frontend enterprise lead for the migration and rebranding of Elance Private Talent Cloud to UpWork Enterprise. Mentored 5 engineers, handled release management and all devops responsibilities."
+                "First growth engineer at Elance working on building SEO Content Trees, optimizing conversion funnels and building A/B tests.",
+                "First enterprise engineer that grew to a team of 3. Built 7 enterprise tools used by large enterprises to speed up the hiring and onboarding of freelancers.",
+                "Frontend enterprise lead for the migration and rebranding of Elance Private Talent Cloud to UpWork Enterprise.",
+                "Mentored 5 engineers, handled release management and all devops responsibilities for frontend and middle layer."
             ],
-            "endDate": "2015-12-25"
+            "endDate": "2015-12-31"
         },
         {
             "company": "Kfx2 Baton Rouge, LA",
@@ -72,7 +78,7 @@
                 "Completed 20+ redesigns and new launches of sites for clients.",
                 "Led the creation of a mobile development services department where we created 5 native iOS applications for new and existing clients."
             ],
-            "endDate": "2011-12-25"
+            "endDate": "2011-12-31"
         },
         {
             "company": "Comit Technologies",
@@ -97,7 +103,7 @@
                 "Managed 3 UPS facilities w/ 150+ users, 100+ workstations and 21 servers.",
                 "Maintained 99.99% uptime for critical software systems.",
                 "Promoted to Senior technician faster than anyone in our District in a 5 year period.",
-                "Led coordination of inventory system for our district"
+                "Led coordination of inventory system for our district."
             ],
             "endDate": "2007-12-01"
         },
@@ -110,7 +116,7 @@
             "highlights": [
                 "Architected and developed a custom SEO optimized multi-tennant e-commerce platform that powered sales for 6 different stores.",
                 "Increased revenue on our main e-commerce store by 300% in 6 months through on-site optimization and organic SEO campaigns.",
-                "Got massageking.com ranked #1 in Google for 4 of it's most important keywords and maintained that position for approximately 7 years."
+                "Got massageking.com ranked #1 in Google for 4 of its most important keywords and maintained that position for approximately 7 years."
             ],
             "endDate": "2004-09-01"
         }
