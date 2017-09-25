@@ -8,7 +8,7 @@
     "build:html": "npx resume export --theme elegant --format html src/index.html",
     "build:json:pdf": "rm -f resume.json && npx jq \"del(.work[3,4,5,6]) | del(.references[4,5,6]) | del(.basics.profiles)\" resume-master.json >> resume.json",
     "build:json:html": "rm -f resume.json && npx jq \".\" resume-master.json >> resume.json",
-    "build:json:md": "rm -f resume.json && npx jq \".\" resume-master.json >> resume.json",
+    "build:json:md": "rm -f resume.json && npx jq \"del(.references)\" resume-master.json >> resume.json",
     "build:md": "npx resume export --theme markdown test.html",
     "build:pdf": "npx resume export --theme paper --format pdf travis_boudreaux_resume.pdf",
     "prebuild:html" : "npm run build:json:html",
