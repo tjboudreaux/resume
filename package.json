@@ -1,6 +1,6 @@
 {
   "name": "travis-boudreaux-resume",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "My Resume",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,9 @@
     "build:json:md": "rm -f resume.json && npx jq \"del(.references)\" resume-master.json >> resume.json",
     "build:md": "npx resume export --theme markdown test.html",
     "build:pdf": "npx resume export --theme paper --format pdf travis_boudreaux_resume.pdf",
-    "prebuild:html" : "npm run build:json:html",
-    "prebuild:md" : "npm run build:json:md",
-    "prebuild:pdf" : "npm run build:json:pdf",
+    "prebuild:html": "npm run build:json:html",
+    "prebuild:md": "npm run build:json:md",
+    "prebuild:pdf": "npm run build:json:pdf",
     "postbuild:md": "pwd && mv test.html README.md && rm -f test.html",
     "serve": "",
     "deploy": "aws s3 sync src s3://travisboudreaux.com --profile travis --acl public-read --exclude \"*\" --include \"*\"",
